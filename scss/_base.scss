@@ -8,5 +8,36 @@
 
 
 body {
-    
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 15px;
+    color: $very-light-gray;
+
+    main {
+        height: 100vh;
+
+        .central-box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+
+            .column {
+                max-width: 200px;
+                padding: 1em;
+            }
+
+            .one {
+                background: $bright-orange;
+            }
+
+            .two {
+                background: $dark-cyan;
+            }
+
+            .three {
+                background: $very-dark-cyan;
+            }
+        }
+    }
 }

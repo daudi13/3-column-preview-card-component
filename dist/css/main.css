@@ -4,4 +4,48 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+
+body {
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 15px;
+  color: #f2f2f2;
+}
+
+body main {
+  height: 100vh;
+}
+
+body main .central-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+}
+
+body main .central-box .column {
+  max-width: 200px;
+  padding: 1em;
+}
+
+body main .central-box .one {
+  background: #e38826;
+}
+
+body main .central-box .two {
+  background: #006970;
+}
+
+body main .central-box .three {
+  background: #004241;
+}
 /*# sourceMappingURL=main.css.map */
