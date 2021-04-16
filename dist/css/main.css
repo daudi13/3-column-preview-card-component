@@ -40,14 +40,20 @@ body main .central-box .column {
 
 body main .central-box .column .icon {
   padding-bottom: 1.6em;
+  width: 50px;
 }
 
 body main .central-box .column__title {
   padding-bottom: 1em;
+  text-transform: uppercase;
 }
 
 body main .central-box .column__desc {
   padding-bottom: 1.9em;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.6;
 }
 
 body main .central-box .column__btn {
@@ -60,13 +66,27 @@ body main .central-box .column__btn {
 
 body main .central-box .one {
   background: #e38826;
+  border-radius: 6px 6px 0 0;
+}
+
+body main .central-box .one .column__btn {
+  color: #e38826;
 }
 
 body main .central-box .two {
   background: #006970;
 }
 
+body main .central-box .two .column__btn {
+  color: #006970;
+}
+
 body main .central-box .three {
   background: #004241;
+  border-radius: 0 0  6px 6px;
+}
+
+body main .central-box .three .column__btn {
+  color: #004241;
 }
 /*# sourceMappingURL=main.css.map */

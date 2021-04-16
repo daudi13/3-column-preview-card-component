@@ -29,14 +29,20 @@ body {
 
                 .icon {
                     padding-bottom: 1.6em;
+                    width: 50px;
                 }
 
                 &__title {
                     padding-bottom: 1em;
+                    text-transform: uppercase;
                 }
 
                 &__desc {
                     padding-bottom: 1.9em;
+                    font-family: 'Lexend Deca', sans-serif;
+                    font-size: 13px;
+                    font-weight: 400;
+                    line-height: 1.6;
                 }
 
                 &__btn {
@@ -50,14 +56,28 @@ body {
 
             .one {
                 background: $bright-orange;
+                border-radius: 6px 6px 0 0;
+
+                .column__btn {
+                    color: $bright-orange;
+                }
             }
 
             .two {
                 background: $dark-cyan;
+
+                .column__btn {
+                    color: $dark-cyan;
+                }
             }
 
             .three {
                 background: $very-dark-cyan;
+                border-radius: 0 0  6px 6px;
+
+                .column__btn {
+                    color: $very-dark-cyan;
+                }
             }
         }
     }
