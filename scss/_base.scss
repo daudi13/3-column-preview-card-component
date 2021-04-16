@@ -1,12 +1,4 @@
 
-
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-
 body {
     font-family: 'Big Shoulders Display', cursive;
     font-size: 15px;
@@ -21,81 +13,5 @@ body {
             overflow: hidden;
         }
 
-        .central-box {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100%;
-
-            @include response(medium) {
-                flex-direction: row;
-            }
-
-            .column {
-                max-width: 200px;
-                padding: 1.9em;
-
-                .icon {
-                    padding-bottom: 1.6em;
-                    width: 50px;
-                }
-
-                &__title {
-                    padding-bottom: 1em;
-                    text-transform: uppercase;
-                }
-
-                &__desc {
-                    padding-bottom: 1.9em;
-                    font-family: 'Lexend Deca', sans-serif;
-                    font-size: 13px;
-                    font-weight: 300;
-                    line-height: 1.8;
-                }
-
-                &__btn {
-                    padding: 8px 15px;
-                    border: none;
-                    outline: none;
-                    border-radius: 15px;
-                    font-size: 12px;
-                }
-            }
-
-            .one {
-                background: $bright-orange;
-                border-radius: 6px 6px 0 0;
-
-                @include response (medium) {
-                    border-radius: 6px 0 0 6px;
-                }
-
-                .column__btn {
-                    color: $bright-orange;
-                }
-            }
-
-            .two {
-                background: $dark-cyan;
-
-                .column__btn {
-                    color: $dark-cyan;
-                }
-            }
-
-            .three {
-                background: $very-dark-cyan;
-                border-radius: 0 0  6px 6px;
-
-                @include response (medium) {
-                    border-radius: 0 6px 6px 0;
-                }
-
-                .column__btn {
-                    color: $very-dark-cyan;
-                }
-            }
-        }
     }
 }

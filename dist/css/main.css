@@ -1,10 +1,3 @@
-* {
-  padding: 0;
-  margin: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
 body {
   font-family: 'Big Shoulders Display', cursive;
   font-size: 15px;
@@ -23,7 +16,14 @@ body main {
   }
 }
 
-body main .central-box {
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.central-box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -41,7 +41,7 @@ body main .central-box {
 }
 
 @media (min-width: 720px) {
-  body main .central-box {
+  .central-box {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -49,22 +49,22 @@ body main .central-box {
   }
 }
 
-body main .central-box .column {
+.central-box .column {
   max-width: 200px;
   padding: 1.9em;
 }
 
-body main .central-box .column .icon {
+.central-box .column .icon {
   padding-bottom: 1.6em;
   width: 50px;
 }
 
-body main .central-box .column__title {
+.central-box .column__title {
   padding-bottom: 1em;
   text-transform: uppercase;
 }
 
-body main .central-box .column__desc {
+.central-box .column__desc {
   padding-bottom: 1.9em;
   font-family: 'Lexend Deca', sans-serif;
   font-size: 13px;
@@ -72,7 +72,7 @@ body main .central-box .column__desc {
   line-height: 1.8;
 }
 
-body main .central-box .column__btn {
+.central-box .column__btn {
   padding: 8px 15px;
   border: none;
   outline: none;
@@ -80,41 +80,41 @@ body main .central-box .column__btn {
   font-size: 12px;
 }
 
-body main .central-box .one {
+.central-box .one {
   background: #e38826;
   border-radius: 6px 6px 0 0;
 }
 
 @media (min-width: 720px) {
-  body main .central-box .one {
+  .central-box .one {
     border-radius: 6px 0 0 6px;
   }
 }
 
-body main .central-box .one .column__btn {
+.central-box .one .column__btn {
   color: #e38826;
 }
 
-body main .central-box .two {
+.central-box .two {
   background: #006970;
 }
 
-body main .central-box .two .column__btn {
+.central-box .two .column__btn {
   color: #006970;
 }
 
-body main .central-box .three {
+.central-box .three {
   background: #004241;
   border-radius: 0 0  6px 6px;
 }
 
 @media (min-width: 720px) {
-  body main .central-box .three {
+  .central-box .three {
     border-radius: 0 6px 6px 0;
   }
 }
 
-body main .central-box .three .column__btn {
+.central-box .three .column__btn {
   color: #004241;
 }
 /*# sourceMappingURL=main.css.map */
