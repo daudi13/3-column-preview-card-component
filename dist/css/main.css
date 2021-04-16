@@ -34,7 +34,15 @@ body main .central-box {
 
 body main .central-box .column {
   max-width: 200px;
-  padding: 1em;
+  padding: 1.9em;
+}
+
+body main .central-box .column .icon {
+  padding-bottom: 1.6em;
+}
+
+body main .central-box .column__title {
+  padding-bottom: 1em;
 }
 
 body main .central-box .one {

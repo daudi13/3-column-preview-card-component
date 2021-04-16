@@ -24,7 +24,15 @@ body {
 
             .column {
                 max-width: 200px;
-                padding: 1em;
+                padding: 1.9em;
+
+                .icon {
+                    padding-bottom: 1.6em;
+                }
+
+                &__title {
+                    padding-bottom: 1em;
+                }
             }
 
             .one {
