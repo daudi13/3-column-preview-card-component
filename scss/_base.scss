@@ -11,9 +11,10 @@ body {
     font-family: 'Big Shoulders Display', cursive;
     font-size: 15px;
     color: $very-light-gray;
+    margin: 3rem auto;
 
     main {
-        height: 100vh;
+        height: 100%;
 
         .central-box {
             display: flex;
@@ -32,6 +33,18 @@ body {
 
                 &__title {
                     padding-bottom: 1em;
+                }
+
+                &__desc {
+                    padding-bottom: 1.9em;
+                }
+
+                &__btn {
+                    padding: 8px 15px;
+                    border: none;
+                    outline: none;
+                    border-radius: 15px;
+                    font-size: 12px;
                 }
             }
 

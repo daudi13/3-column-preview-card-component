@@ -9,10 +9,11 @@ body {
   font-family: 'Big Shoulders Display', cursive;
   font-size: 15px;
   color: #f2f2f2;
+  margin: 3rem auto;
 }
 
 body main {
-  height: 100vh;
+  height: 100%;
 }
 
 body main .central-box {
@@ -43,6 +44,18 @@ body main .central-box .column .icon {
 
 body main .central-box .column__title {
   padding-bottom: 1em;
+}
+
+body main .central-box .column__desc {
+  padding-bottom: 1.9em;
+}
+
+body main .central-box .column__btn {
+  padding: 8px 15px;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+  font-size: 12px;
 }
 
 body main .central-box .one {
